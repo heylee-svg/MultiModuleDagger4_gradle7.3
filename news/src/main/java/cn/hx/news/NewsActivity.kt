@@ -16,4 +16,6 @@ class NewsActivity : BaseActivity() {
         setContentView(_binding.root)
         _binding.text.text = set.toString()
     }
+
+
 }

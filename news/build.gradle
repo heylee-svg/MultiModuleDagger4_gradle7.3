@@ -39,6 +39,7 @@ dependencies {
     kapt "com.google.dagger:dagger-android-processor:${rootProject.ext.dagger_version}"
     implementation "com.github.qq549631030:applike-api:$rootProject.ext.appLikeVersion"
     annotationProcessor "com.github.qq549631030:applike-compiler:$rootProject.ext.appLikeVersion"
+    kapt 'cn.hx.applike:compiler:1.0.1'
 
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'androidx.test.ext:junit:1.1.2'
